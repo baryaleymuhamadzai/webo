@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <title>Apply</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<header>
+    <h1>Apply For Vacant Position</h1>
+    <nav>
+        
+        <ul>
+            <li><a href="index.html">Home</a>&nbsp;</li>
+            <li><a href="Jobs.html">Describtion</a>&nbsp;</li>
+            <li><a href="apply.html">Apply Job</a>&nbsp;</li>
+        </ul>
+    </nav>
+</header>
+<body>
+
+
+    <form action="">
+
+        <ul>
+            <li>
+                <label for="refno">Job Reference No:</label>
+                <input type="text" size="5" maxlength="5" required>
+            </li>
+            <li>
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" name="name" id="" maxlength="20" required>
+            </li>
+            <li>
+
+        
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="" maxlength="20" required>
+            </li>
+            <li>
+                <label for="DOB">Date of Birth:</label>
+                <input type="date" required >
+            </li>
+
+    <li>
+        
+        <label for="gender">Gender:</label>
+        <input type="radio"  name="gender" required>MALE
+        <input type="radio" name="gender" required>FEMALE &nbsp;
+    </li>
+
+        <li>
+            <label for="adress">Street Adress:</label>
+            <input type="text" name="streetadress" maxlength="40" required>
+        </li>
+        <li>
+            <label for="townadress">Suburb/Town Adress:</label>&nbsp;
+            <input type="text" name="townadress" maxlength="40" required>
+        </li>
+        <li>
+            <label for="state">Select State</label>
+            <select name="state" id="">
+                <option value="VIC">VIC</option>
+                <option value="NSW">NSW</option>
+                <option value="QLD">QLD</option>
+                <option value="NT">NT</option>
+                <option value="WA">WA</option>
+                <option value="SA">SA</option>
+                <option value="TAS">TAS</option>
+                <option value="ACT">ACT</option>
+            </select>
+        </li>
+        <li>
+            
+        <label for="postcode">Enter Postal Code</label>
+        <input type="number" maxlength="4" required >
+
+        </li>
+        <li>
+            <label for="email">Enter Email:</label>
+            <input type="email" name="email" required>
+        </li>
+        <li>
+            <label for="phone">Enter Phone Number:</label>
+            <input type="tel" name="phone" required>
+
+        </li>
+        <li>
+            <label for="skills">Select skill:</label>
+            <ul>
+                <li><input type="checkbox">HTML</li>
+                <li><input type="checkbox">CSS</li>
+                <li><input type="checkbox">Java Script</li>
+                <li><input type="checkbox">php</li>
+
+            </ul>
+        </li>
+        <li>
+            <label for="other">other skills</label>
+            <textarea maxlength="500" required placeholder="any other skills"></textarea> 
+        </li>
+        <li>
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments"></textarea>
+        </li>
+        <li>
+            <button type="submit">Submit Application</button>
+            <button type="reset">Reset Form</button>
+        </li>
+
+
+        </ul>
+
+    </form>
+</body>
+<footer>
+    @TAJ 
+Solutions2024
+</footer>
+</html>
